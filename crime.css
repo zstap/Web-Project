@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  margin-top: 50px;
+}
+.typewriter h1 {
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 100px auto 0 auto;
+  letter-spacing: .15em;
+  animation:
+      typing 2.5s steps(15, end),
+      blink-caret .5s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0}
+  to { width: 100%}
+}
+@keyframes blink-caret {
+  from, to {border-color: transparent}
+  50% {border-color: yellow}
+}
+h2 {
+  margin: 0 auto;
+}
+.fade h2 {
+    font-size: 2.0rem;
+    position: absolute;
+    left: 0%;
+    color: white;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 4s linear 3.5s 1 normal forwards;
+    -webkit-animation: fadeIn 4s linear 3.5s 1 normal forwards;
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 170px auto 0 auto;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+-webkit-@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+h2 {
+  color: white;
+  margin: 0 auto;
+  font-family: 'Julius Sans One', sans-serif;
+}
