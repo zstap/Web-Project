@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Crime Awareness</title>
+        <style>
+        ul {
+                list-style-type: none;
+                overflow: hidden;
+                background-color:black;
+            }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 10px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: yellow;
+            <font-family: 'Julius Sans One', sans-serif</font-family>
+        }
+        li.active{
+            background-color: yellow;
+        }
+        .side{
+
+            height:100%;
+            position:fixed;
+            z-index:1;
+            overflow:auto
+            display: block;
+            font-family: 'Julius Sans One', sans-serif;
+
+        }
+        .side a{
+
+            color: black;
+            display: block;
+            padding: 12px;
+            text-decoration: none
+        }
+        .side a:hover{
+            background-color: yellow;
+        }
+        </style>
+
+    </head>
+    <body>
+
+        <div class="side" style="width:5%">
+            <h3 align="center">Menu</h3>
+            <a href="#" >About us</a>
+            <a href="#" >Social media</a>
+            <a href="#" >Did you know?</a>
+        </div>
+        <div style="margin-left:5%">
+            <!-- add here everything you want to include on the page -->
+            <h1 align="center"> Crime Awareness Leicester</h1>
+        <ul>
+            <li><a class="active" href="#button">Burglary</a></li>
+            <li><a href="#button">Anti social behaviour</a></li>
+            <li><a href="#button">Vehicle crime</a></li>
+            <li><a href="#button">Violent crime</a></li>
+            <li><a href="#button">Sexual offences</a></li>
+        </ul>
+        </div>
+
+    </body>
+</html>
