@@ -1,11 +1,17 @@
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+}
 ul {
         list-style-type: none;
         overflow: hidden;
-        background-color:black;
+        background-color: black;
     }
 
-li {
+li, .side {
     float: left;
+}
+.side {
+  width: 100px;
 }
 
 li a {
@@ -14,11 +20,11 @@ li a {
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 li a:hover {
     background-color: yellow;
-    font-family: 'Julius Sans One', sans-serif;
 }
 li.active{
     background-color: yellow;
