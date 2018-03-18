@@ -5,6 +5,10 @@ body {
 h1 {
   margin-top: 50px;
 }
+a:visited, a {
+  text-decoration: none;
+  color: black;
+}
 .typewriter h1 {
   font-size: 2.5em;
   color: white;
