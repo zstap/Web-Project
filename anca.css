@@ -1,0 +1,45 @@
+ul {
+        list-style-type: none;
+        overflow: hidden;
+        background-color:black;
+    }
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: yellow;
+    font-family: 'Julius Sans One', sans-serif;
+}
+li.active{
+    background-color: yellow;
+}
+.side{
+
+    height:100%;
+    overflow:auto
+    position:fixed;
+    z-index:1;
+    display: block;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+.side a{
+
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none
+}
+.side a:hover{
+    background-color: yellow;
+}
