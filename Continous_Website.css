@@ -1,0 +1,159 @@
+
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+ul {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: black;
+    }
+
+li, .side {
+    float: left;
+}
+.side {
+  width: 100px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    float: fixed;
+
+}
+
+li a:hover {
+    background-color: yellow;
+}
+li.active{
+    background-color: yellow;
+}
+.side{
+
+    height:100%;
+    overflow:auto
+    position: sticky;
+    z-index:1;
+    display: block;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+.side a{
+
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.side a:hover{
+    background-color: yellow;
+}
+.burglary {
+  background-image: url("http://i67.tinypic.com/16icm4k.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Burglarytext {
+  text-align: center;
+}
+.B2{
+  background-color: #e1b137 ;
+  height: 200px;
+  width: auto;
+
+}
+.column1 {
+  float: left;
+  width: 50%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 15px;
+  font-color: white;
+}
+.B2:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #e1b137;
+}
+.lib {
+  background-color: #e1b137;
+}
+.burglary1 {
+  background-image: url("http://i67.tinypic.com/mt3vwy.png");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ASB {
+  background-image: url("http://i65.tinypic.com/dgld0g.jpg ");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ASB1 {
+  background-image: url("http://i63.tinypic.com/qn8vgl.png");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Vehicle {
+  background-image: url("http://i66.tinypic.com/ft3mc.jpg ");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vehicle1 {
+  background-image: url("  http://i65.tinypic.com/1tsvn8.png");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.violent {
+  background-image:url("http://i65.tinypic.com/20f8dux.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.violent1 {
+  background-image: url("http://i67.tinypic.com/2eap3yt.png");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sexual {
+  background-image: url("http://i65.tinypic.com/140erlv.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sexual1 {
+  background-image: url("http://i63.tinypic.com/qn8vgl.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
