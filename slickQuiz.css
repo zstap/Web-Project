@@ -1,8 +1,3 @@
-/* BASE QUIZ STYLES */
-/* These styles ensure that the necessary elements are hidden for toggling */
-
-/* DO NOT EDIT UNLESS YOU KNOW WHAT YOU ARE DOING!! */
-
 .startQuiz,
 .nextQuestion,
 .backToQuestion,
@@ -13,9 +8,6 @@
 .quizResults {
     display: none;
 }
-
-/* If response messages are disabled or only shown on quiz completion,
-   nextQuestion button IS checkAnswer button - so it must be displayed */
 .nextQuestion.checkAnswer {
     display: block;
 }
@@ -29,7 +21,6 @@ ul.responses li {
     list-style-type: none;
 }
 
-/* Accessibility */
 .quizName span:first-child {
     border: 0;
     clip: rect(0 0 0 0);
@@ -39,4 +30,10 @@ ul.responses li {
     padding: 0;
     position: absolute;
     width: 1px;
+}
+body {
+  font: white;
+}
+.answers li label {
+  color:white;
 }

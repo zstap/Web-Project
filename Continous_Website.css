@@ -157,3 +157,14 @@ li.active{
   background-repeat: no-repeat;
   background-size: cover;
 }
+h2 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.ndp  {
+    background-image: url("map-leicester.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
